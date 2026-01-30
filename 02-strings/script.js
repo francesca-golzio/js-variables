@@ -1,6 +1,9 @@
 // 1. Dichiarazione di variabili
 // Crea una variabile chiamata name e assegnale il tuo nome.
+/* const name = 'Francesca'; // Commento e cambio nome alla const perchè 'name' è deprecato */
+const myName = 'Francesca';
 // Stampa il valore di nome nella console.
+console.log(myName);
 
 // 2. Tipi primitivi
 // Crea tre variabili chiamate number, text e bool e assegna rispettivamente
