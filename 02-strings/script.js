@@ -7,8 +7,21 @@ console.log(myName);
 
 // 2. Tipi primitivi
 // Crea tre variabili chiamate number, text e bool e assegna rispettivamente
+let number, text, bool;
 // un numero, una stringa e un valore booleano.
+number = 13;
+text = 'tredici'; /* ma andrebbe bene anche '13' */
+bool = false;
 // Stampa tutti i valori nella console.
+console.log(number);
+console.log(text);
+console.log(bool);
+  // altra possibilità (che però trasforma tutto in una stringa)
+  console.log(number + ' ' + text + ' '+ bool);
+    // variazione sul tema (per giocare con nuove conoscenze)
+    console.log(`number value is: ${number}`);
+    console.log(`text value is: ${text}`);
+    console.log(`number value is: ${number}`);
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
